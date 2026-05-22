@@ -1,9 +1,8 @@
 streamlit
 pandas
 numpy
-matplotlib.pyplot
+matplotlib
 seaborn
 winsorize
 scikit-learn
-io
-warnings
+
