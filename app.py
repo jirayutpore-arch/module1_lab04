@@ -5,7 +5,9 @@ st.set_page_config(page_title="MyApp", layout="wide")
 st.title("🏠 หน้าหลัก ")
 st.write("### Boot Camp: Data Science and Machine Learning")
 st.info("7 Day Intensive Hands-on Workshop")
-st.write("|||LA|||")
+st.write("✅ Data Processing Engine is ready")
+st.markdown("### **||| LA VERSION 2.0 |||**")
+st.caption("Powered by Red Bull Data Engineering Team")
 st.write("##### Day 1: การจัดการข้อมูลพื้นฐานและโครงสร้างข้อมูลด้วย Python")
 
 if st.button("💰 ระบบคำนวณส่วนลดตามยอดซื้อ"):
