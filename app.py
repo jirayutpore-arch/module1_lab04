@@ -121,8 +121,7 @@ st.markdown("""
     </div>
 """, unsafe_allow_html=True)
 
-st.markdown("<h3 style='text-align: center; text-shadow: 2px 2px #000;'>DAY 1: การจัดการข้อมูลพื้นฐาน</h3>", unsafe_allow_html=True)
-st.write("---")
+
 
 # 5. ระบบ Slider / Carousel สำหรับปุ่ม
 # เก็บสถานะว่ากำลังอยู่ที่สไลด์ไหน
