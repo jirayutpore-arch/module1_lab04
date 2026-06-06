@@ -121,7 +121,8 @@ st.markdown("""
     </div>
 """, unsafe_allow_html=True)
 
-
+st.markdown("<h3 style='text-align: center; text-shadow: 2px 2px #000;'>DAY 1: การจัดการข้อมูลพื้นฐาน</h3>", unsafe_allow_html=True)
+st.write("---")
 
 # 5. ระบบ Slider / Carousel สำหรับปุ่ม
 # เก็บสถานะว่ากำลังอยู่ที่สไลด์ไหน
@@ -132,10 +133,7 @@ if 'slide_index' not in st.session_state:
 pages = [
     {"icon": "💰", "label": "ระบบคำนวณส่วนลดตามยอดซื้อ", "path": "pages/app1_discount_calc.py", "desc": "โปรแกรมสำหรับคำนวณส่วนลดอัตโนมัติ"},
     {"icon": "🧹", "label": "ทำความสะอาดข้อมูล (Data Cleaning)", "path": "pages/clean_app_pore.py", "desc": "จัดการข้อมูลที่สูญหายและซ้ำซ้อน"},
-    {"icon": "🔄", "label": "การแปลงข้อมูล (Data Transformation)", "path": "pages/transform_app.py", "desc": "ปรับเปลี่ยนรูปฟอร์มและประเภทของข้อมูล"},
-    {"icon": "💸", "label": "ทำนายยอดขาย", "path": "pages/sale_predict.py", "desc": "Model สำหรับทำนายยอดขาย"},
-    {"icon": "🚚", "label": "จัดตารางเข้า-ออกรถบรรทุก", "path": "pages/truck_predict.py", "desc": "Model สำหรับจัดตารางการเดินรถเข้า-ออกบริษัท"},
-    {"icon": "✈", "label": " Red Bull High Sales Predictor", "path": "pages/classify_redbull_sale.py", "desc": "เครื่องมือนี้ช่วยคาดการณ์ว่า Product จะมียอดขายสูงหรือไม่ ขึ้นอยู่กับงบประมาณการตลาดและปัจจัยอื่นๆ"}
+    {"icon": "🔄", "label": "การแปลงข้อมูล (Data Transformation)", "path": "pages/transform_app.py", "desc": "ปรับเปลี่ยนรูปฟอร์มและประเภทของข้อมูล"}
 ]
 
 total_slides = len(pages)
