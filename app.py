@@ -136,7 +136,7 @@ pages = [
     {"icon": "🔄", "label": "การแปลงข้อมูล (Data Transformation)", "path": "pages/transform_app.py", "desc": "ปรับเปลี่ยนรูปฟอร์มและประเภทของข้อมูล"}
     {"icon": "🚛", "label": "Logistics Service Time Prediction & Scheduling", "path": "pages/truck_predict.py", "desc": "แอปลิเคชันนี้ช่วยพยากรณ์เวลาบริการรถบรรทุก และจัดตารางการเข้าคิวเพื่อประสิทธิภาพสูงสุด"}
     {"icon": "📈", "label": "พยากรณ์ยอดขาย", "path": "pages/sale_predict.py", "desc": "แอปลิเคชันนี้ช่วยพยากรณ์ยอดขาย"}
-    {"icon": "🔄", "label": "การแปลงข้อมูล (Data Transformation)", "path": "pages/classify_redbull_sale.py", "desc": "เครื่องมือนี้ช่วยคาดการณ์ว่า Product จะมียอดขายสูงหรือไม่ ขึ้นอยู่กับงบประมาณการตลาดและปัจจัยอื่นๆ"}
+    {"icon": "🚀", "label": "การแปลงข้อมูล (Data Transformation)", "path": "pages/classify_redbull_sale.py", "desc": "เครื่องมือนี้ช่วยคาดการณ์ว่า Product จะมียอดขายสูงหรือไม่ ขึ้นอยู่กับงบประมาณการตลาดและปัจจัยอื่นๆ"}
 ]
 
 total_slides = len(pages)
