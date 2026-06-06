@@ -134,7 +134,7 @@ pages = [
     {"icon": "💰", "label": "ระบบคำนวณส่วนลดตามยอดซื้อ", "path": "pages/app1_discount_calc.py", "desc": "โปรแกรมสำหรับคำนวณส่วนลดอัตโนมัติ"},
     {"icon": "🧹", "label": "ทำความสะอาดข้อมูล (Data Cleaning)", "path": "pages/clean_app_pore.py", "desc": "จัดการข้อมูลที่สูญหายและซ้ำซ้อน"},
     {"icon": "🔄", "label": "การแปลงข้อมูล (Data Transformation)", "path": "pages/transform_app.py", "desc": "ปรับเปลี่ยนรูปฟอร์มและประเภทของข้อมูล"}
-    {"icon": "🔄", "label": "การแปลงข้อมูล (Data Transformation)", "path": "pages/transform_app.py", "desc": "แอปลิเคชันนี้ช่วยพยากรณ์เวลาบริการรถบรรทุก และจัดตารางการเข้าคิวเพื่อประสิทธิภาพสูงสุด"}
+    {"icon": "🚛", "label": "การแปลงข้อมูล (Data Transformation)", "path": "pages/transform_app.py", "desc": "แอปลิเคชันนี้ช่วยพยากรณ์เวลาบริการรถบรรทุก และจัดตารางการเข้าคิวเพื่อประสิทธิภาพสูงสุด"}
     {"icon": "🔄", "label": "การแปลงข้อมูล (Data Transformation)", "path": "pages/transform_app.py", "desc": "ปรับเปลี่ยนรูปฟอร์มและประเภทของข้อมูล"}
     {"icon": "🔄", "label": "การแปลงข้อมูล (Data Transformation)", "path": "pages/transform_app.py", "desc": "ปรับเปลี่ยนรูปฟอร์มและประเภทของข้อมูล"}
 ]
