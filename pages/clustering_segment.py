@@ -20,8 +20,8 @@ features = ['Units_Sold', 'Marketing_Spend', 'Customer_Score', 'Logistics_Delay'
 centroids_data = {
     "Units_Sold": [94217.67, 224432.27],
     "Marketing_Spend": [101039.83, 200408.08],
-    "Customer_Score": [49.97, 50.60],
     "Logistics_Delay": [44.85, 44.13],
+    "Customer_Score": [49.97, 50.60],
     "Revenue": [3523438.42, 8562793.71]
 }
 centroids = pd.DataFrame(centroids_data, index=[0, 1]) # สร้าง DataFrame ของ Centroids
