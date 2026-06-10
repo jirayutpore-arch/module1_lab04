@@ -139,7 +139,7 @@ pages = [
     {"icon": "🚀", "label": "Red Bull High Sales Predictor", "path": "pages/classify_redbull_sale.py", "desc": "เครื่องมือนี้ช่วยคาดการณ์ว่า Product จะมียอดขายสูงหรือไม่ ขึ้นอยู่กับงบประมาณการตลาดและปัจจัยอื่นๆ"},
     {"icon": "📈", "label": "Market Segmentation Predictor", "path": "pages/clustering_segment.py", "desc": "การจัดกลุ่มข้อมูลจากข้อมูลลูกค้า."},
     {"icon": "🛒", "label": "TCP Group: ระบบแนะนำสินค้าจาก Market Basket Analysis", "path": "pages/association_items.py", "desc": "แนะนำสินค้าที่น่าจะซื้อคู่กัน"},
-    {"icon": "🗺", "label": "TCP Behavioral Association Recommendation", "path": "pages/association_items.py", "desc": "ให้ระบบแนะนำสินค้า/ช่องทาง/ภูมิภาคอื่น ๆ ที่ลูกค้ามีแนวโน้มจะสนใจ จากกฎความสัมพันธ์ "}
+    {"icon": "🗺", "label": "TCP Behavioral Association Recommendation", "path": "pages/association_recommend.py", "desc": "ให้ระบบแนะนำสินค้า/ช่องทาง/ภูมิภาคอื่น ๆ ที่ลูกค้ามีแนวโน้มจะสนใจ จากกฎความสัมพันธ์ "}
 ]
 
 total_slides = len(pages)
